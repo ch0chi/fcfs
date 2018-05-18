@@ -1,0 +1,1 @@
+{"version":3,"sources":["functions.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"app.js","sourcesContent":["(function ($) {\n  $(window).scroll(function () {\n    $(\".arrow\").css(\"opacity\", 1 - $(window).scrollTop() / 250); //250 is fade pixels\n  });\n})(jQuery);"]}

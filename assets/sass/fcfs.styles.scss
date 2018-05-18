@@ -1,8 +1,11 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600";
 
 // libraries
-@import "../.npm/node_modules/breakpoint-sass/stylesheets/breakpoint";
-@import "../.npm/node_modules/font-awesome/scss/font-awesome";
+@import "../../.npm/node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/fa-solid.scss";
+@import "../fontawesome/scss/animated.scss";
+@import "../fontawesome/scss/larger.scss";
 
 // import theme styles
 @import "variables/*";

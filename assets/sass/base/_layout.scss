@@ -42,3 +42,14 @@ body{
     align-items:flex-start;
   }
 }
+
+#more-info{
+  @include fa-icon;
+  @extend .fas;
+  @include bounce;
+  font-size:5em;
+  &::before{
+    content:fa-content($fa-var-angle-down);
+
+  }
+}
